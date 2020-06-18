@@ -64,10 +64,10 @@
 				8DC4EFBB2498D3F80069FE02 /* SceneDelegate.swift */,
 				8DC4EFBD2498D3F80069FE02 /* ViewController.swift */,
 				8DC4EFBF2498D3F80069FE02 /* Main.storyboard */,
+				8DC4EFCD2498D8FD0069FE02 /* EntryViewController.swift */,
 				8DC4EFC22498D3FA0069FE02 /* Assets.xcassets */,
 				8DC4EFC42498D3FA0069FE02 /* LaunchScreen.storyboard */,
 				8DC4EFC72498D3FA0069FE02 /* Info.plist */,
-				8DC4EFCD2498D8FD0069FE02 /* EntryViewController.swift */,
 				8DC4EFCF2498D9470069FE02 /* DisplayTasksViewController.swift */,
 			);
 			path = ToDoListApp;

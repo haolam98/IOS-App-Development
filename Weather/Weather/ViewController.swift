@@ -151,6 +151,8 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDe
     }
     func dailyForecast_request()
     {
+        var icons = [String]()
+        var temps = [String]()
         AF.request("https://api.openweathermap.org/data/2.5/onecall?lat=\(lat)&lon=\(long)&exclude=minutely,hourly&appid=\(apiKey)&units=metric").responseJSON
                {
                    response in
@@ -170,11 +172,13 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDe
                         let max = "\(Int(round(temp_item["max"].doubleValue)))"
                         let min_max = min + " - " + max
                         
-                        self.icon_list.append(icon)
-                        self.temp_list.append(min_max)
+                        icons.append(icon)
+                        temps.append(min_max)
                         
                        }
                        //self.weather_table.reloadData()
+                       self.temp_list = temps
+                       self.icon_list = icons
                        
                         break
                     
@@ -182,6 +186,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UITableViewDe
                        break
                    }
                }
+      print ("After get daily forecast: temp_count:\(temp_list.count) ; icon_count: \(icon_list.count)")
     }
     
     //BACKGROUND:

@@ -36,14 +36,25 @@ class EntryViewController: UIViewController , UITextFieldDelegate, UITextViewDel
             return
         }
         // save task -> User Default
-        guard let count = UserDefaults().value(forKey: "count") as? Int else
-        {
-            return
-        }
-        
+        guard let count = UserDefaults().value(forKey: "count") as? Int else {return}
+       // guard var array = UserDefaults().object(forKey: "task_list") as? [String] else {
+            // if task_list is empty
+                        
+        //}
+        var array = UserDefaults().object(forKey: "task_list") as! [String]
         let newCount = count + 1
         UserDefaults().set(newCount, forKey: "count")
-        UserDefaults().set(text, forKey: "task_\(newCount)")
+        
+        print ("**before: \(array.count)")
+        array.append(text) // add new task to array
+        print ("**after: \(array.count)")
+        for item in array
+        {
+            print (item)
+        }
+        
+        UserDefaults().set(array, forKey: "task_list")
+        //UserDefaults().set(text, forKey: "task_\(newCount)")
         
         update?() //means if the update funct exist, call it
         
