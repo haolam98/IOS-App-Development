@@ -1,1 +1,1 @@
-Project simply present a LogIn, Sign Up, Sign Out functions featuring the Facebook login that allow user to login to the app with their Facebook accounts
+Project simply present a LogIn, Sign Up, Sign Out functions featuring the Facebook login feature that allows user to login to the app with their Facebook account
