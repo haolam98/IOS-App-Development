@@ -201,7 +201,7 @@ extension ViewController: UITableViewDataSource
         }
         
         //add background
-        action.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1) //type color literal to choose color
+        action.backgroundColor = #colorLiteral(red: 0.8549019694, green: 0.250980407, blue: 0.4784313738, alpha: 1) //type "color literal" to choose color
         action.image = #imageLiteral(resourceName: "trash_can") // type image literal
         
         
