@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		672008D9B98414AFA4F24DE6 /* Pods_halloweenTabBar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B7600F99C9B41DC48A8FD62 /* Pods_halloweenTabBar.framework */; };
+		8D36538424ACE6D400C3F5C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36538324ACE6D400C3F5C9 /* AppDelegate.swift */; };
+		8D36538624ACE6D400C3F5C9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36538524ACE6D400C3F5C9 /* SceneDelegate.swift */; };
+		8D36538824ACE6D400C3F5C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36538724ACE6D400C3F5C9 /* ViewController.swift */; };
+		8D36538D24ACE6D500C3F5C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D36538C24ACE6D500C3F5C9 /* Assets.xcassets */; };
+		8D36539024ACE6D500C3F5C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D36538E24ACE6D500C3F5C9 /* LaunchScreen.storyboard */; };
+		8D36539824ACE81100C3F5C9 /* FlatUIColorsSwift.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D36539724ACE81100C3F5C9 /* FlatUIColorsSwift.xcassets */; };
+		8D36539A24ACE82900C3F5C9 /* HalloweenService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36539924ACE82900C3F5C9 /* HalloweenService.swift */; };
+		8D36539C24ACF19800C3F5C9 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36539B24ACF19800C3F5C9 /* MainTabBarController.swift */; };
+		8D3653A024AD0C5C00C3F5C9 /* DummyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D36539F24AD0C5C00C3F5C9 /* DummyController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B7600F99C9B41DC48A8FD62 /* Pods_halloweenTabBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_halloweenTabBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		536E29C3C0CB646E94DC9649 /* Pods-halloweenTabBar.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-halloweenTabBar.debug.xcconfig"; path = "Target Support Files/Pods-halloweenTabBar/Pods-halloweenTabBar.debug.xcconfig"; sourceTree = "<group>"; };
+		8D36538024ACE6D400C3F5C9 /* halloweenTabBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = halloweenTabBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D36538324ACE6D400C3F5C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D36538524ACE6D400C3F5C9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8D36538724ACE6D400C3F5C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D36538C24ACE6D500C3F5C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D36538F24ACE6D500C3F5C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8D36539124ACE6D500C3F5C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D36539724ACE81100C3F5C9 /* FlatUIColorsSwift.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = FlatUIColorsSwift.xcassets; sourceTree = "<group>"; };
+		8D36539924ACE82900C3F5C9 /* HalloweenService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HalloweenService.swift; sourceTree = "<group>"; };
+		8D36539B24ACF19800C3F5C9 /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		8D36539F24AD0C5C00C3F5C9 /* DummyController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyController.swift; sourceTree = "<group>"; };
+		CFAA4C9BCC03332CCD02CAFE /* Pods-halloweenTabBar.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-halloweenTabBar.release.xcconfig"; path = "Target Support Files/Pods-halloweenTabBar/Pods-halloweenTabBar.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D36537D24ACE6D400C3F5C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				672008D9B98414AFA4F24DE6 /* Pods_halloweenTabBar.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AB0E3D36C7FCBBD53525E59 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				536E29C3C0CB646E94DC9649 /* Pods-halloweenTabBar.debug.xcconfig */,
+				CFAA4C9BCC03332CCD02CAFE /* Pods-halloweenTabBar.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		596E6D9BF1238B6B4E6BF58B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2B7600F99C9B41DC48A8FD62 /* Pods_halloweenTabBar.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D36537724ACE6D400C3F5C9 = {
+			isa = PBXGroup;
+			children = (
+				8D36538224ACE6D400C3F5C9 /* halloweenTabBar */,
+				8D36538124ACE6D400C3F5C9 /* Products */,
+				2AB0E3D36C7FCBBD53525E59 /* Pods */,
+				596E6D9BF1238B6B4E6BF58B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8D36538124ACE6D400C3F5C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D36538024ACE6D400C3F5C9 /* halloweenTabBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D36538224ACE6D400C3F5C9 /* halloweenTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				8D36539724ACE81100C3F5C9 /* FlatUIColorsSwift.xcassets */,
+				8D36538324ACE6D400C3F5C9 /* AppDelegate.swift */,
+				8D36538524ACE6D400C3F5C9 /* SceneDelegate.swift */,
+				8D36538724ACE6D400C3F5C9 /* ViewController.swift */,
+				8D36539924ACE82900C3F5C9 /* HalloweenService.swift */,
+				8D36538C24ACE6D500C3F5C9 /* Assets.xcassets */,
+				8D36538E24ACE6D500C3F5C9 /* LaunchScreen.storyboard */,
+				8D36539124ACE6D500C3F5C9 /* Info.plist */,
+				8D36539B24ACF19800C3F5C9 /* MainTabBarController.swift */,
+				8D36539F24AD0C5C00C3F5C9 /* DummyController.swift */,
+			);
+			path = halloweenTabBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D36537F24ACE6D400C3F5C9 /* halloweenTabBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D36539424ACE6D500C3F5C9 /* Build configuration list for PBXNativeTarget "halloweenTabBar" */;
+			buildPhases = (
+				39DA3985A29D9FE6C0E11A15 /* [CP] Check Pods Manifest.lock */,
+				8D36537C24ACE6D400C3F5C9 /* Sources */,
+				8D36537D24ACE6D400C3F5C9 /* Frameworks */,
+				8D36537E24ACE6D400C3F5C9 /* Resources */,
+				804EED00A8D1E06742014DD3 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = halloweenTabBar;
+			productName = halloweenTabBar;
+			productReference = 8D36538024ACE6D400C3F5C9 /* halloweenTabBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D36537824ACE6D400C3F5C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Hao Lam";
+				TargetAttributes = {
+					8D36537F24ACE6D400C3F5C9 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = 8D36537B24ACE6D400C3F5C9 /* Build configuration list for PBXProject "halloweenTabBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D36537724ACE6D400C3F5C9;
+			productRefGroup = 8D36538124ACE6D400C3F5C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D36537F24ACE6D400C3F5C9 /* halloweenTabBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D36537E24ACE6D400C3F5C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D36539024ACE6D500C3F5C9 /* LaunchScreen.storyboard in Resources */,
+				8D36538D24ACE6D500C3F5C9 /* Assets.xcassets in Resources */,
+				8D36539824ACE81100C3F5C9 /* FlatUIColorsSwift.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		39DA3985A29D9FE6C0E11A15 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-halloweenTabBar-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		804EED00A8D1E06742014DD3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-halloweenTabBar/Pods-halloweenTabBar-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-halloweenTabBar/Pods-halloweenTabBar-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-halloweenTabBar/Pods-halloweenTabBar-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D36537C24ACE6D400C3F5C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D3653A024AD0C5C00C3F5C9 /* DummyController.swift in Sources */,
+				8D36538824ACE6D400C3F5C9 /* ViewController.swift in Sources */,
+				8D36539A24ACE82900C3F5C9 /* HalloweenService.swift in Sources */,
+				8D36539C24ACF19800C3F5C9 /* MainTabBarController.swift in Sources */,
+				8D36538424ACE6D400C3F5C9 /* AppDelegate.swift in Sources */,
+				8D36538624ACE6D400C3F5C9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8D36538E24ACE6D500C3F5C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D36538F24ACE6D500C3F5C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D36539224ACE6D500C3F5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D36539324ACE6D500C3F5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D36539524ACE6D500C3F5C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 536E29C3C0CB646E94DC9649 /* Pods-halloweenTabBar.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX5U58PQ6D;
+				INFOPLIST_FILE = halloweenTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haolam.halloweenTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D36539624ACE6D500C3F5C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFAA4C9BCC03332CCD02CAFE /* Pods-halloweenTabBar.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RX5U58PQ6D;
+				INFOPLIST_FILE = halloweenTabBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.haolam.halloweenTabBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D36537B24ACE6D400C3F5C9 /* Build configuration list for PBXProject "halloweenTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D36539224ACE6D500C3F5C9 /* Debug */,
+				8D36539324ACE6D500C3F5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D36539424ACE6D500C3F5C9 /* Build configuration list for PBXNativeTarget "halloweenTabBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D36539524ACE6D500C3F5C9 /* Debug */,
+				8D36539624ACE6D500C3F5C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D36537824ACE6D400C3F5C9 /* Project object */;
+}
